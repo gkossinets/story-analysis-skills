@@ -22,7 +22,7 @@ The framework synthesises principles from:
 - **Linda Cowgill**, *Writing Short Films* — setup, inciting incident, rising action, plant and payoff
 - **Nancy Kress**, *Beginnings, Middles and Ends* — promises to the reader, dangling causes
 - **Michael Rabiger**, *Directing* — dramatic unit analysis, through-lines, character scene analysis, exposition checking
-- **Aurin Squire** (sixperfections.blogspot.com) — the "go for A, get B" principle; the evaluative question "why is this scene compelling?"; reveal/reversal rhythm as a cross-scene diagnostic
+- **N. J. Lowe**, *The Classical Plot and the Invention of Western Narrative* — story-world vs. primary-narrative; control level; forms of narrative power; transparency as a craft axis; postponement, screening, and misdirection as suspense modes
 
 ---
 
@@ -67,7 +67,7 @@ After the scene pass, compile the patterns that only become visible across the w
 
 - **Reveal/reversal rhythm:** classify each scene's primary movement as a reveal (the audience or a character learns something unexpected) or a reversal (the terms of the situation are fundamentally changed); map the sequence. Long runs of reveals without a reversal may feel flat; clustered reversals may feel melodramatic. A particularly potent structural move is the deliberate **non-reversal**: a place where the audience expects a reversal (final confrontation, climactic revelation, defeat) but encounters its absence. Mark these explicitly when present; they often sit where a conventional climax would be expected.
 - **Dangling cause map:** plants and payoffs, matched by scene number; list anything unresolved separately.
-- **Status arcs:** for each major character, the trajectory of status across the work.
+- **Status and power arcs:** for each major character, the trajectory of status and form of narrative power across the work; note any significant conversions of power.
 - **Mood arc:** how atmosphere shifts across the whole piece.
 - **Structural devices:** recurring objects, repeated formats, motifs.
 - **Tempo and density:** which scenes are dense, which are sparse, where the pace breaks.
@@ -86,6 +86,7 @@ The fields:
 - **Tone:** how is the story oriented toward its material? Ironic, pessimistic, inspiring, tragic, comic, mystical, satirical, clinical, campy, elegiac, deadpan, etc. Name the tone plainly; note any significant tonal shifts across the work.
 - **Message or intended effect:** what (if anything) is the story arguing, asserting, or asking? What is the implied reader meant to know, feel, see, or recognise by the end that they did not at the start? If the story's moral position is genuinely ambiguous or suspended, say so — deliberate ambiguity is a craft position, not an absence.
 - **Craft choices that construct these positions:** two or three specific devices that do the work. For each, follow a three-move template: (1) name the choice, (2) state what it does structurally, (3) connect it to the larger stance. Devices worth considering: distribution of knowledge between narrator, characters, and reader; what is withheld and for how long; the shape of the arc (conventional climax vs. deliberate non-reversal); perspective and focalisation; selection of what is told vs. dramatised; formats and rituals the story inhabits or subverts; tempo and density choices. This is where the analysis becomes most pedagogical.
+- **Transparency:** is the storytelling apparatus hidden, or exposed as part of the work's argument? When transparency is in force, two technical tests apply: do outcomes follow from existing setup (no deus ex machina); are game elements planted before use, not produced when needed? When the apparatus is deliberately exposed (visible authorial hand, direct address, archival juxtaposition that breaks the fictive frame, formal patterning that proclaims itself), is the exposure purposeful?
 - **Story shape:** Western conflict-climax arc, kishotenketsu (introduction, development, twist, reconciliation), episodic, spiralling, or some other shape. Note any tension between the shape the material suggests and the shape the implied reader might expect. The framework does not privilege one tradition over another.
 
 Keep each answer tight — roughly two to four sentences per field, and craft-choice bullets to a line or two each. Brevity and pedagogical clarity over completeness.
@@ -119,6 +120,8 @@ Write a single Markdown file using exactly the heading structure below. The `cre
 **Key motifs:** [recurring images, objects, phrases]
 
 **Formats used:** [trials, rituals, ceremonies, checkpoints, etc.]
+
+**Control level:** [agencies that direct events without being themselves directly affected (gods, fate, the state, bureaucracy, surveillance, the algorithm, market forces, ideology); articulate or implicit; omit if absent]
 
 **Intended effect:** [what the reader is meant to know, feel, or recognise by the end — one sentence]
 
@@ -179,8 +182,8 @@ Write a single Markdown file using exactly the heading structure below. The `cre
 **Unresolved:**
 - [dangling causes never paid off]
 
-**Status arcs:**
-- [Character]: [start status] → [end status] via scenes [NN, NN, NN]
+**Status and power arcs:**
+- [Character]: [start status; form of power held] → [end status; form of power held] via scenes [NN, NN, NN]; note significant conversions
 
 **Mood arc:**
 - [bullets tracking atmospheric movement across the work]
@@ -202,6 +205,8 @@ Write a single Markdown file using exactly the heading structure below. The `cre
 - [Choice]: [what it does structurally]; [connection to the larger stance]
 - [Choice]: [what it does structurally]; [connection to the larger stance]
 - [Choice]: [what it does structurally]; [connection to the larger stance]
+
+**Transparency:** [hidden | exposed | mixed]. [Brief note on whether the apparatus is foregrounded as part of the argument, and any explicit violations of "outcomes from setup" or "elements planted before use."]
 
 **Story shape:** [Western conflict-climax arc | kishotenketsu | episodic | spiralling | other]. [Brief note on any tension between the shape the material suggests and the shape the implied reader might expect.]
 ```
@@ -228,23 +233,23 @@ Sources: Thomas (social status, willpower, values); Edgar (office vs. rank vs. c
 
 Sources: Rabiger (subtext extraction, dramatic beats); Thomas (internal action in dialogue); Salesses (inside/outside story).
 
-**4. Format and ritual.** What is the social structure of the scene (a trial, a ceremony, a negotiation, a dinner, a checkpoint procedure, a sales pitch, a lesson)? What are its built-in rules, roles, and expected behaviours? Where do characters conform to or violate the format?
+**4. Format and ritual.** What is the social structure of the scene (a trial, a ceremony, a negotiation, a dinner, a checkpoint procedure, a sales pitch, a lesson)? What are its built-in rules, roles, and expected behaviours? Where do characters conform to or violate the format? If a control level is operating in the work, is the scene's format one of its instruments?
 
 Sources: Edgar (formats borrowed from life); Thomas (given circumstances as social context).
 
 ### E — Engine (what drives the scene forward)
 
-**5. Circumstances, stasis, and intrusion.** What are the given circumstances (time, place, weather, objects, social conditions)? What is the equilibrium at the scene's start? Is it disturbed? By what? What was stable before the change, and how does that clarify the dramatic weight of the change?
+**5. Circumstances, stasis, and intrusion.** What are the given circumstances (time, place, weather, objects, social conditions)? What is the equilibrium at the scene's start? Is it disturbed? By what? What was stable before the change, and how does that clarify the dramatic weight of the change? What is in the story-world but outside the primary narrative (backstory, offstage events, simultaneous action elsewhere)?
 
-Sources: Ball (stasis, intrusion, battle for new stasis); Thomas (given circumstances — geography, society, economics, politics, culture, spirituality).
+Sources: Ball (stasis, intrusion, battle for new stasis); Thomas (given circumstances — geography, society, economics, politics, culture, spirituality); Lowe (story-world vs. primary-narrative distinction).
 
 **6. Objectives and the A→B→C pattern.** What does each character want, in this scene and longer-term? Do objectives shift during the scene? Is there a gap between stated and actual objectives? Is there a clear "go for A, get B" movement — a character pursues A and encounters something unexpected (B), as either a reveal (the situation is not what it appeared) or a reversal (the terms have fundamentally changed)? In the strongest scenes, B provokes a further transformation (C): the character adapts, decides, or changes in response, within the same scene. A→B scenes move the story forward; A→B→C scenes are where characters grow.
 
-Sources: Thomas (super-objectives, through-action); Rabiger (moment-by-moment objectives); Cowgill (protagonist goal, inciting incident); Ball (dominoes); Six Perfections blog (A→B→C; reveals and reversals).
+Sources: Thomas (super-objectives, through-action); Rabiger (moment-by-moment objectives); Cowgill (protagonist goal, inciting incident); Ball (dominoes; A→B→C; reveals and reversals).
 
-**7. Stakes.** What is at risk? Do the stakes rise or lower? Are they material, emotional, moral, or existential? Are the stakes the same for all characters, or do different characters experience different stakes in the same situation?
+**7. Stakes.** What is at risk? Do the stakes rise or lower? Are they material, emotional, moral, or existential? Are the stakes the same for all characters, or do different characters experience different stakes in the same situation? What forms of power are in play (information, moral position, instrumental, social, positional), and does any of it shift form?
 
-Sources: Cowgill (escalation of tension); Gulino (hope vs. fear); Kress (promises and consequences).
+Sources: Cowgill (escalation of tension); Gulino (hope vs. fear); Kress (promises and consequences); Lowe (forms of narrative power).
 
 **8. Choreography of knowledge and dramatic irony.** Who knows what? Does the audience know more than the characters (dramatic irony), or less? Are there scenes of revelation (audience learns something a character doesn't) or recognition (character catches up to what the audience already knew)? How does the distribution of knowledge create tension, comedy, or suspense?
 
@@ -260,11 +265,11 @@ Sources: Gulino (dangling causes, dialogue hooks, telegraphing, preparation by c
 
 Sources: Salesses (implied author, POV as cultural choice); Rabiger (whose scene is it? how tight is perspective?).
 
-**11. Information management.** What new information is delivered, and how (through action, dialogue, objects, dramatic irony, voiceover, flashback)? What is withheld? How dense is the scene informationally, and how fast does it move? Is exposition organic or awkward? Does the scene assume its reader already knows certain things?
+**11. Information management.** What new information is delivered, and how (through action, dialogue, objects, dramatic irony, voiceover, flashback)? What is withheld, and by what mechanism (postponement, where the audience waits for a known outcome; screening, where the viewpoint blocks information the audience knows must exist; misdirection, where information is on the board but mis-flagged)? How dense is the scene informationally, and how fast does it move? Is exposition organic or awkward? Does the scene assume its reader already knows certain things?
 
 Combines exposition technique, tempo, and information density.
 
-Sources: Ball (exposition relevant to action); Thomas (tempo); Rabiger (checking exposition); Salesses (context for the implied audience).
+Sources: Ball (exposition relevant to action); Thomas (tempo); Rabiger (checking exposition); Salesses (context for the implied audience); Lowe (modes of withholding information).
 
 **12. Mood and atmosphere.** What is the emotional weather of the scene? Character mood is interior (a state of mind or feeling). Scene atmosphere is generated externally (by setting, light, sound, objects, time of day, weather). Do mood and atmosphere reinforce or counterpoint each other?
 
