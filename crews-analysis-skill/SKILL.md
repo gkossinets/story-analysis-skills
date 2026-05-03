@@ -38,17 +38,49 @@ Before beginning, confirm with the user:
 
 ### Step 2: split into scenes
 
-Break the text into scenes based on changes in:
+**Definition.** A scene is a unit of continuous dramatic action, in the screenplay sense: a single location, a continuous time, and a stable configuration of characters present. A scene break is triggered by any of:
 
-- Location (interior/exterior, specific place)
-- Time (continuous action vs. jump; flashback; flash-forward)
-- Character configuration (French scenes: who enters or exits)
+- a meaningful change of location;
+- a non-trivial time jump (not seconds, but minutes or longer where dramatic state could shift);
+- a significant entry or exit of a character carrying dramatic weight;
+- a clear shift in the kind of action being performed.
 
-**Prefer conventional scene breakdown.** Flashbacks, flash-forwards, intercut sequences, and dream sequences are all conventional scene structures; a jump in time or place is a scene break, not an orbit. Number scenes sequentially in the order they appear in the text (reading order, not chronological story order), regardless of internal time movement. If the work uses explicit act or sequence breaks, record them between scenes; do not renumber across breaks.
+**Chapters are not scenes.** In prose fiction, chapters are structural units of presentation; a single chapter routinely contains several scenes, and one scene can span multiple chapters. Do not let chapter divisions set the granularity of the breakdown. Treat the source as if it were a screenplay or stage play and ask where the slug lines would fall.
+
+**Granularity rule.** A scene break exists where something dramatically distinct begins, not where a foot crosses a threshold. Functional transitions (a corridor between rooms, a brief elevator ride, a quick walk) usually merge into the adjacent scene unless something dramatically distinct happens during the transition itself — a new character intercepts, an internal recognition occurs, the action of the previous scene is being processed in a way that changes state. When in doubt about whether two adjacent passages are one scene or two, ask whether dramatic state shifts between them; if not, merge.
+
+**Conventional structures that are still scenes.** Flashbacks, flash-forwards, intercut sequences, and dream sequences are conventional scene structures; a jump in time or place is a scene break, not an orbit. Number scenes sequentially in the order they appear in the text (reading order, not chronological story order), regardless of internal time movement. If the work uses explicit act or sequence breaks, record them between scenes; do not renumber across breaks.
 
 **Temporal orbits** are a fallback only for genuinely non-linear prose — stream of consciousness, spiralling narration, associative digression that cannot be cleanly segmented (e.g., Krasznahorkai, late Bernhard, some Sebald). If the text admits a scene structure at all, use scenes. Mark an orbit with `[orbit]` after its number only when scene segmentation would distort the material.
 
-### Step 3: apply CREWS to each scene
+**Dramatis personae.** Alongside the scene list, compile a brief cast list of recurring characters with canonical names and any aliases the source uses. In particular, note POV-specific aliases (Mama, Papa, Bruder, the kids), titles vs. first names (Lieutenant Schmidt, Hans), and family or relational forms (my wife, mein Bruder, the boy). This is not character analysis; it is a naming convention that ensures the analysis pass refers to each character consistently regardless of which scene's POV they appear in. Use the canonical name in scene headers and analysis bullets; quote in-scene usage only when the choice of address is itself dramatically significant. List anyone who appears in two or more scenes, plus anyone with a name in a single scene who carries dramatic weight; one-scene unnamed functionaries (a driver, a makeup artist, a waiter) do not need to be tracked here.
+
+### Step 3: present the scene list and dramatis personae, then wait for confirmation
+
+Before performing the full analysis, present the scene list and the dramatis personae to the user and **stop**. The model must wait for explicit confirmation (or adjustment of either) before proceeding to Step 4. Do not begin scene-level analysis on a breakdown the user has not seen.
+
+For each scene, give a single line in this form:
+
+```
+NN. [Location, time] — [characters present] — [one-line action]
+```
+
+For the dramatis personae, use the form:
+
+```
+- [Canonical name] — [role or relation]; [aliases used in the source, if any]
+```
+
+Keep both lists terse; this is a structural review, not analysis. If the work uses act, sequence, or part divisions, indicate them between scene entries.
+
+After the lists, ask the user to either confirm ("proceed") or adjust — split a scene, merge two scenes, change a boundary, change granularity globally; or correct a canonical name, add a missing alias, add or drop a character. On adjustment, present the revised lists and wait again. Only proceed once the user confirms.
+
+Two notes on handling the wait:
+
+- For sources with explicit scene structure (screenplays with sluglines, stage plays with marked scenes), the review is usually a formality; the user's confirmation is one word. Still wait for it.
+- For prose fiction, films viewed without a script, and hybrid forms, the review is where granularity gets calibrated and aliases get caught. Be receptive to user feedback about whether the breakdown is too coarse or too fine, and whether character naming is consistent.
+
+### Step 4: apply CREWS to each scene
 
 For each scene, work through the five headings and twelve dimensions. Omit any dimension that is not live in a given scene — a silent dimension is a signal about the scene, not a gap in analysis.
 
@@ -61,18 +93,19 @@ For each scene, work through the five headings and twelve dimensions. Omit any d
 - Target 20 to 30 rendered lines per scene; scenes consistently longer than 40 lines should be tightened
 - **Separate adjacent bold-label lines with a blank line.** Standard Markdown collapses single newlines, so `**Present:** ...` followed by `**Action:** ...` on the next line renders as one run-on paragraph in most editors and in Google Docs. Always insert a blank line between two consecutive bold-label lines (e.g., between `**Premise:**` and `**Implied reader:**`, or between `**Present:**` and `**Action:**`). Bulleted lists do not need this treatment — bullets already separate visually
 
-### Step 4: cross-scene patterns
+### Step 5: cross-scene patterns
 
 After the scene pass, compile the patterns that only become visible across the whole work:
 
 - **Reveal/reversal rhythm:** classify each scene's primary movement as a reveal (the audience or a character learns something unexpected) or a reversal (the terms of the situation are fundamentally changed); map the sequence. Long runs of reveals without a reversal may feel flat; clustered reversals may feel melodramatic. A particularly potent structural move is the deliberate **non-reversal**: a place where the audience expects a reversal (final confrontation, climactic revelation, defeat) but encounters its absence. Mark these explicitly when present; they often sit where a conventional climax would be expected.
+- **Suspense:** how is suspense achieved across the work — through postponement (the audience waits for a known outcome), screening (the viewpoint blocks information the audience knows must exist), or misdirection (information is on the board but mis-flagged)? Note any single dominant mode, or shifts between modes across acts.
 - **Dangling cause map:** plants and payoffs, matched by scene number; list anything unresolved separately.
 - **Status and power arcs:** for each major character, the trajectory of status and form of narrative power across the work; note any significant conversions of power.
 - **Mood arc:** how atmosphere shifts across the whole piece.
 - **Structural devices:** recurring objects, repeated formats, motifs.
 - **Tempo and density:** which scenes are dense, which are sparse, where the pace breaks.
 
-### Step 5: who hired the CREWS?
+### Step 6: who hired the CREWS?
 
 Step back from the scene-level work and answer the meta-questions below. Two rules govern this section:
 
@@ -178,6 +211,9 @@ Write a single Markdown file using exactly the heading structure below. The `cre
 **Dangling cause map:**
 - ↓ [cause] (03) → ↑ [payoff] (17)
 - ↓ [cause] (05) → ↑ [payoff] (11)
+
+**Suspense:**
+- [dominant mode(s); any shifts across the work; where it concentrates]
 
 **Unresolved:**
 - [dangling causes never paid off]

@@ -22,9 +22,9 @@ Both formats generate a cover card at the head of the deck and a rhythm map card
 
 **Input:** an absolute path to a CREWS analysis Markdown file with the structure produced by the `crews-analysis` skill. Key sections expected:
 
-- `## Overview` (premise, characters with super-objectives, implied reader, story shape, motifs, formats)
+- `## Overview` (premise, characters with super-objectives, implied reader, story shape, motifs, formats, control level)
 - `## Scene-by-scene` with `### Scene NN — ...` headings for each scene
-- `## Cross-scene patterns` (rhythm, dangling causes, status arcs, mood arc)
+- `## Cross-scene patterns` (rhythm, suspense, dangling causes, status and power arcs, mood arc)
 - `## Who hired the CREWS?` (meta-question answer)
 
 If the input file lacks these sections, stop and tell the user the file does not match the expected structure; ask whether they want to run `crews-analysis` first.
@@ -97,6 +97,8 @@ Use these only when the analysis file includes explicit structural dividers.
 **Key motifs:** [recurring images, objects, phrases]
 
 **Formats used:** [trials, rituals, ceremonies, etc.]
+
+**Control level:** [agencies that direct events without being directly affected — gods, fate, the state, surveillance, the algorithm, market forces, ideology; omit if absent]
 
 **Intended effect:** [what the reader is meant to know, feel, or recognise by the end]
 
@@ -192,11 +194,13 @@ Letter cards can afford one expanded dimension per line. Silent dimensions are s
 ```markdown
 **RHYTHM MAP — [Title]**
 
-**Reveal/reversal rhythm** (r = reveal, R = reversal, n = non-reversal):
+**Reveal/reversal rhythm** (r = reveal, R = reversal, N = non-reversal):
 
-r r R r r r R R r r r R n r ...
+r r R r r r R R r r r R N r ...
 
-**Notes:** [flag any notable runs — long stretches of r without R, R clusters that risk melodrama, or deliberate n's where a reversal was expected]
+**Notes:** [flag any notable runs — long stretches of r without R, R clusters that risk melodrama, or deliberate N's where a reversal was expected]
+
+**Suspense:** [dominant mode(s) — postponement, screening, misdirection; any shifts across the work]
 
 **Dangling cause map:**
 
@@ -207,9 +211,9 @@ r r R r r r R R r r r R n r ...
 
 - [list of dangling causes never paid off]
 
-**Status arcs:**
+**Status and power arcs:**
 
-- [Character]: [start status] → [end status] via scenes [NN, NN, NN]
+- [Character]: [start status; form of power held] → [end status; form of power held] via scenes [NN, NN, NN]; note significant conversions
 
 **Mood arc:**
 
@@ -223,7 +227,7 @@ To derive the compact rhythm string from the analysis file's per-scene rhythm li
 - `setup` → `r` (the opening is a small reveal of world and situation)
 - `reveal` → `r`
 - `reversal` → `R`
-- `non-reversal` → `n`
+- `non-reversal` → `N`
 
 Preserve scene order; the position of each symbol corresponds to its scene number.
 
