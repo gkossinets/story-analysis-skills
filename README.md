@@ -117,7 +117,7 @@ The output is scannable labelled bullets, not essay prose.
 
 The framework is a synthesis; no single source covers all twelve dimensions. [Design notes](docs/crews-design-notes.md) map each dimension to its sources and record how testing on real texts shaped the framework.
 
-- **David Ball**, *Backwards and Forwards*: stasis, intrusion, dominoes; the A→B→C movement; the reveal/reversal distinction.
+- **David Ball**, *Backwards and Forwards*: stasis, intrusion, dominoes; the reveal/reversal distinction.
 - **James Thomas**, *Script Analysis for Actors, Directors, and Designers*: given circumstances; beats and units; tempo, rhythm, mood; character complexity; social status.
 - **Damon Kiely**, *How to Read a Play*: active reading; dramatic action.
 - **David Edgar**, *How Plays Work*: format and ritual; choreography of knowledge (via Michael Eaton).
@@ -127,6 +127,7 @@ The framework is a synthesis; no single source covers all twelve dimensions. [De
 - **Nancy Kress**, *Beginnings, Middles and Ends*: promises to the reader; dangling causes.
 - **Michael Rabiger**, *Directing*: dramatic unit analysis; through-lines; character scene analysis; exposition checking.
 - **N. J. Lowe**, *The Classical Plot and the Invention of Western Narrative*: story-world vs. primary narrative; control level; forms of narrative power; transparency as a craft axis; postponement, screening and misdirection as suspense modes.
+- **Aurin Squire**, *Six Perfections* blog: the "go for A, get B" movement and its C step (A→B→C), with reveals and reversals alternating across a work ("[Writing Tip: Go for A and Get B](https://sixperfections.blogspot.com/2026/04/writing-tip-go-for-and-get-b.html)," 2026); the question "why is this scene compelling to watch?" ("[5 Questions for Scene Analysis](https://sixperfections.blogspot.com/2026/04/5-questions-for-scene-analysis.html)," 2026, adapted from Tom Vaughan, "[Five Questions For Every Scene](https://storyandplot.substack.com/p/five-questions-for-every-scene)," *Story and Plot*, 2025).
 
 ---
 

@@ -25,27 +25,48 @@ Three commitments held throughout:
 | 3. Subtext | Rabiger; Thomas; Salesses | Salesses's inside/outside story |
 | 4. Format and ritual | Edgar; Thomas | Trials, ceremonies, meetings and checkpoints as borrowed dramatic structures |
 | 5. Circumstances, stasis, and intrusion | Ball; Thomas; Lowe | Ball's stasis/intrusion folded into Thomas's given circumstances; Lowe's story-world vs. primary narrative added later |
-| 6. Objectives and the A→B→C pattern | Thomas; Rabiger; Cowgill; Ball | "Go for A, get B" and the reveal/reversal distinction are Ball's ("dominoes"); C (the character's transformation within the scene) extends it |
+| 6. Objectives and the A→B→C pattern | Thomas; Rabiger; Cowgill; Ball; Squire | Reveal vs. reversal from Ball (as Squire credits it); the "go for A, get B" phrasing, the C step (the character adapts within the scene) and the reveal/reversal alternation diagnostic as set out by Squire |
 | 7. Stakes | Cowgill; Gulino; Kress; Lowe | Gulino's hope vs. fear; Lowe's forms of narrative power |
 | 8. Choreography of knowledge and dramatic irony | Edgar (via Michael Eaton); Gulino; Ball; Salesses | Gulino's revelation and recognition; Salesses's "what is left out, and for whom" |
 | 9. Dangling causes and payoffs | Gulino; Kress; Cowgill | Gulino's dangling causes; Kress's promises to the reader; Cowgill's plant and payoff |
 | 10. Perspective and narration | Salesses; Rabiger | "Whose scene is it?" |
 | 11. Information management | Ball; Thomas; Rabiger; Salesses; Lowe | Merges exposition technique, tempo and information density; Lowe's postponement, screening and misdirection as modes of withholding |
 | 12. Mood and atmosphere | Thomas; Rabiger | Thomas's split between interior mood and external atmosphere |
-| S: "Why is this scene compelling?" | *Story and Plot* newsletter ("Five questions for every scene") | An evaluative check on connective scenes that do a job but don't earn attention |
+| S: "Why is this scene compelling?" | Vaughan (*Story and Plot*), via Squire | An evaluative check on connective scenes that do a job but don't earn attention |
 | Meta-question: "Who hired the CREWS?" | Salesses; Lowe | Implied reader, implied author, what is left out, story shape (Salesses); transparency and control level (Lowe) |
 | Scene vs. chapter; screenplay-sense scene definition | Thomas; Rabiger; French scenes | Hardened after a test on contemplative prose (see below) |
 | Temporal orbits | Original to CREWS | Unit of analysis for prose that resists scene breaks; came out of the Krasznahorkai test |
 | Non-reversal | Original to CREWS | A place where a reversal is expected and deliberately withheld; identified during the Pelevin test |
 | Scene cards for a wall | Frank Daniel, via David Lynch | The 3×5 scene-card method; implemented in the companion `crews-cards` skill |
 
-Full citations: David Ball, *Backwards and Forwards*; James Thomas, *Script Analysis for Actors, Directors, and Designers*; Damon Kiely, *How to Read a Play*; David Edgar, *How Plays Work*; Paul Gulino, *Screenwriting: The Sequence Approach*; Matthew Salesses, *Craft in the Real World*; Linda Cowgill, *Writing Short Films*; Nancy Kress, *Beginnings, Middles and Ends*; Michael Rabiger, *Directing*; N. J. Lowe, *The Classical Plot and the Invention of Western Narrative*. Kiely's active reading and dramatic action informed the reading method generally rather than a single dimension.
+Full citations:
+
+- David Ball, *Backwards and Forwards*
+- James Thomas, *Script Analysis for Actors, Directors, and Designers*
+- Damon Kiely, *How to Read a Play*
+- David Edgar, *How Plays Work*
+- Paul Gulino, *Screenwriting: The Sequence Approach*
+- Matthew Salesses, *Craft in the Real World*
+- Linda Cowgill, *Writing Short Films*
+- Nancy Kress, *Beginnings, Middles and Ends*
+- Michael Rabiger, *Directing*
+- N. J. Lowe, *The Classical Plot and the Invention of Western Narrative*
+
+Kiely's active reading and dramatic action informed the reading method generally rather than a single dimension. Squire, Vaughan and the Frank Daniel scene-card method are cited in full under [Attribution corrections](#attribution-corrections).
 
 ### Attribution corrections
 
-- A→B→C and the reveal/reversal language were first picked up from the Six Perfections blog, which did not credit a source. They come from Ball's chapter on "dominoes," and are credited to Ball.
-- The "compelling" question comes from the *Story and Plot* newsletter, not from any of the books above.
-- The scene-card method is usually credited to David Lynch, but Lynch credits it to Frank Daniel, who taught him film analysis at the AFI's Center for Advanced Film Studies (from 1970). Daniel's version: collect ideas for about 70 scenes, one per 3×5 card, and you have a feature. Lynch still worked this way in 1990, though by then he dictated the cards to an assistant. Source: Richard B. Woodward, "A Dark Lens on America," *The New York Times Magazine*, January 14, 1990, section 6, p. 18 (https://www.nytimes.com/1990/01/14/magazine/a-dark-lens-on-america.html). The skill's calibration range of 60–90 scenes for a feature or novel is consistent with Daniel's number.
+- **A→B→C and reveal/reversal.** These came into CREWS through Aurin Squire, "[Writing Tip: Go for A and Get B](https://sixperfections.blogspot.com/2026/04/writing-tip-go-for-and-get-b.html)," *Six Perfections*, April 6, 2026. The post sets out the whole pattern. A scene goes for A and gets B, which is either a reveal or a reversal. Good scenes stop at B; great ones add a C, in which the character adapts or transforms. A story should alternate reveals and reversals, because a run of reversals feels melodramatic and a run of reveals feels flat. Squire credits the reveal/reversal framework to David Ball's *Backwards and Forwards*. CREWS credits Ball for the distinction and Squire for the A→B→C formulation and the alternation rule.
+- **"Why is this scene compelling?"** This came into CREWS through Aurin Squire, "[5 Questions for Scene Analysis](https://sixperfections.blogspot.com/2026/04/5-questions-for-scene-analysis.html)," *Six Perfections*, April 5, 2026. Squire says the questions are based on a *Story and Plot* article. That article is Tom Vaughan, "[Five Questions For Every Scene](https://storyandplot.substack.com/p/five-questions-for-every-scene)," *Story and Plot* (Substack), March 27, 2025 ([mirror](https://theweeklyemail.storyandplot.com/five-questions-for-every-scene/)). Vaughan's fifth question asks what makes a scene worth watching in its own right; the wording CREWS uses is Squire's.
+- **Scene cards for a wall.** The method is usually credited to David Lynch, but Lynch credits it to Frank Daniel, who taught him film analysis at the AFI's Center for Advanced Film Studies (from 1970). Daniel's version: collect ideas for about 70 scenes, one per 3×5 card, and you have a feature. Lynch still worked this way in 1990, though by then he dictated the cards to an assistant. Source: Richard B. Woodward, "[A Dark Lens on America](https://www.nytimes.com/1990/01/14/magazine/a-dark-lens-on-america.html)," *The New York Times Magazine*, January 14, 1990, section 6, p. 18. The skill's calibration range of 60–90 scenes for a feature or novel is consistent with Daniel's number.
+
+### General references and inspiration
+
+These didn't supply specific dimensions, but they shaped the thinking behind CREWS and are good reading alongside it:
+
+- **Lincoln Michel**, [*Counter Craft*](https://countercraft.substack.com/): a newsletter on the craft of fiction writing, how publishing works, and offbeat books.
+- **Scott Myers**, "[How I Write A Script (Parts 1–10)](https://gointothestory.blcklst.com/how-i-write-a-script-parts-1-10-2d40d46c89dd/)," *Go Into The Story*, July 6, 2012: a screenwriter's whole process in ten parts, from story concept, brainstorming, research and character development through plotting, outlining, a script diary, the first draft, rewriting and editing.
+- **Andrew Bashford**, [*Writing with Andrew*](https://www.youtube.com/@WritingwithAndrew): a YouTube channel on writing principles and techniques, by a writing instructor and teacher trainer.
 
 ## Key design decisions
 
@@ -62,12 +83,12 @@ Full citations: David Ball, *Backwards and Forwards*; James Thomas, *Script Anal
 
 Each test changed the framework:
 
-- **Le Carré**, *The Spy Who Came in from the Cold* (ch. 1): the first calibration on tight third-person genre prose.
+- **le Carré**, *The Spy Who Came in from the Cold* (ch. 1): the first calibration on tight third-person genre prose.
 - **Grin**, *The Golden Chain* (Russian, analysed in English): showed that a story can work as kishotenketsu rather than as a conflict arc; later used for the full card workflow when preparing an adaptation.
-- **An unpublished draft chapter by the author**: the first cross-scene pattern analysis; it found a gap between the outside story (a successful night) and the inside story (moral compromise).
+- **An unpublished draft chapter by the author of CREWS**: the first cross-scene pattern analysis; it found a gap between the outside story (a successful night) and the inside story (moral compromise).
 - **Krasznahorkai**, *Herscht 07769* (ch. 1): led to temporal orbits.
 - **Pelevin**, "Crystal World": led to the non-reversal category, the implied-author field and Markdown formatting rules.
-- **An original short script by the author** (across several drafts): confirmed the framework is useful for revision. The analysis surfaced a passive stretch in the protagonist's arc, which was fixed by reordering scenes.
+- **An original short script by the author of CREWS** (across several drafts): confirmed the framework is useful for revision. The analysis surfaced a passive stretch in the protagonist's arc, which was fixed by reordering scenes.
 - **Kehlmann**, *The Director*, and **Turgenev**, "The Singers": the Turgenev run produced too many scene breaks in contemplative prose. This led to the stricter scene definition, the rule that extended description does not break a scene, scene-count calibration ranges, and the checkpoint.
 - **O. Henry**, "The Gift of the Magi": the public worked example in [`examples/`](../examples/gift-of-the-magi/).
 

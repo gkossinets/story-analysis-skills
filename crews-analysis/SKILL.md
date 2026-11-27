@@ -13,7 +13,7 @@ This skill produces a **full-form Markdown analysis file** intended to be both u
 
 The framework synthesises principles from:
 
-- **David Ball**, *Backwards and Forwards* — stasis, intrusion, dominoes
+- **David Ball**, *Backwards and Forwards* — stasis, intrusion, dominoes; reveals vs. reversals
 - **James Thomas**, *Script Analysis for Actors, Directors, and Designers* — given circumstances, beats/units/scenes, tempo/rhythm/mood, character complexity, social status
 - **Damon Kiely**, *How to Read a Play* — active reading, dramatic action
 - **David Edgar**, *How Plays Work* — format and ritual, choreography of knowledge (via Michael Eaton)
@@ -23,6 +23,7 @@ The framework synthesises principles from:
 - **Nancy Kress**, *Beginnings, Middles and Ends* — promises to the reader, dangling causes
 - **Michael Rabiger**, *Directing* — dramatic unit analysis, through-lines, character scene analysis, exposition checking
 - **N. J. Lowe**, *The Classical Plot and the Invention of Western Narrative* — story-world vs. primary-narrative; control level; forms of narrative power; transparency as a craft axis; postponement, screening, and misdirection as suspense modes
+- **Aurin Squire**, *Six Perfections* blog — "go for A, get B" and the C step (A→B→C); alternating reveals and reversals; "why is this scene compelling to watch?" (adapted from Tom Vaughan, *Story and Plot*)
 
 ---
 
@@ -289,7 +290,7 @@ Sources: Ball (stasis, intrusion, battle for new stasis); Thomas (given circumst
 
 **6. Objectives and the A→B→C pattern.** What does each character want, in this scene and longer-term? Do objectives shift during the scene? Is there a gap between stated and actual objectives? Is there a clear "go for A, get B" movement — a character pursues A and encounters something unexpected (B), as either a reveal (the situation is not what it appeared) or a reversal (the terms have fundamentally changed)? In the strongest scenes, B provokes a further transformation (C): the character adapts, decides, or changes in response, within the same scene. A→B scenes move the story forward; A→B→C scenes are where characters grow.
 
-Sources: Thomas (super-objectives, through-action); Rabiger (moment-by-moment objectives); Cowgill (protagonist goal, inciting incident); Ball (dominoes; A→B→C; reveals and reversals).
+Sources: Thomas (super-objectives, through-action); Rabiger (moment-by-moment objectives); Cowgill (protagonist goal, inciting incident); Ball (dominoes; reveals and reversals); Squire (A→B→C; alternating reveals and reversals).
 
 **7. Stakes.** What is at risk? Do the stakes rise or lower? Are they material, emotional, moral, or existential? Are the stakes the same for all characters, or do different characters experience different stakes in the same situation? What forms of power are in play (information, moral position, instrumental, social, positional), and does any of it shift form?
 
