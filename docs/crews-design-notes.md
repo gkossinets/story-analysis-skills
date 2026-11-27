@@ -39,26 +39,24 @@ Three commitments held throughout:
 | Non-reversal | Original to CREWS | A place where a reversal is expected and deliberately withheld; identified during the Pelevin test |
 | Scene cards for a wall | Frank Daniel, via David Lynch | The 3×5 scene-card method; implemented in the companion `crews-cards` skill |
 
-Full citations:
+### Citations and attribution notes
 
-- David Ball, *Backwards and Forwards*
-- James Thomas, *Script Analysis for Actors, Directors, and Designers*
-- Damon Kiely, *How to Read a Play*
-- David Edgar, *How Plays Work*
-- Paul Gulino, *Screenwriting: The Sequence Approach*
-- Matthew Salesses, *Craft in the Real World*
-- Linda Cowgill, *Writing Short Films*
-- Nancy Kress, *Beginnings, Middles and Ends*
-- Michael Rabiger, *Directing*
-- N. J. Lowe, *The Classical Plot and the Invention of Western Narrative*
+Every source behind the table, in alphabetical order. Notes follow where credit runs through an intermediary or is often misattributed.
 
-Kiely's active reading and dramatic action informed the reading method generally rather than a single dimension. Squire, Vaughan and the Frank Daniel scene-card method are cited in full under [Attribution corrections](#attribution-corrections).
-
-### Attribution corrections
-
-- **A→B→C and reveal/reversal.** These came into CREWS through Aurin Squire, "[Writing Tip: Go for A and Get B](https://sixperfections.blogspot.com/2026/04/writing-tip-go-for-and-get-b.html)," *Six Perfections*, April 6, 2026. The post sets out the whole pattern. A scene goes for A and gets B, which is either a reveal or a reversal. Good scenes stop at B; great ones add a C, in which the character adapts or transforms. A story should alternate reveals and reversals, because a run of reversals feels melodramatic and a run of reveals feels flat. Squire credits the reveal/reversal framework to David Ball's *Backwards and Forwards*. CREWS credits Ball for the distinction and Squire for the A→B→C formulation and the alternation rule.
-- **"Why is this scene compelling?"** This came into CREWS through Aurin Squire, "[5 Questions for Scene Analysis](https://sixperfections.blogspot.com/2026/04/5-questions-for-scene-analysis.html)," *Six Perfections*, April 5, 2026. Squire says the questions are based on a *Story and Plot* article. That article is Tom Vaughan, "[Five Questions For Every Scene](https://storyandplot.substack.com/p/five-questions-for-every-scene)," *Story and Plot* (Substack), March 27, 2025 ([mirror](https://theweeklyemail.storyandplot.com/five-questions-for-every-scene/)). Vaughan's fifth question asks what makes a scene worth watching in its own right; the wording CREWS uses is Squire's.
-- **Scene cards for a wall.** The method is usually credited to David Lynch, but Lynch credits it to Frank Daniel, who taught him film analysis at the AFI's Center for Advanced Film Studies (from 1970). Daniel's version: collect ideas for about 70 scenes, one per 3×5 card, and you have a feature. Lynch still worked this way in 1990, though by then he dictated the cards to an assistant. Source: Richard B. Woodward, "[A Dark Lens on America](https://www.nytimes.com/1990/01/14/magazine/a-dark-lens-on-america.html)," *The New York Times Magazine*, January 14, 1990, section 6, p. 18. The skill's calibration range of 60–90 scenes for a feature or novel is consistent with Daniel's number.
+- **David Ball**, *Backwards and Forwards*: stasis, intrusion, dominoes; the reveal/reversal distinction.
+- **Linda Cowgill**, *Writing Short Films*: setup; inciting incident; plant and payoff; escalation.
+- **Frank Daniel**, the 3×5 scene-card method, as described by David Lynch in Richard B. Woodward, "[A Dark Lens on America](https://www.nytimes.com/1990/01/14/magazine/a-dark-lens-on-america.html)," *The New York Times Magazine*, January 14, 1990, section 6, p. 18. The method is usually credited to Lynch, but Lynch credits it to Daniel, who taught him film analysis at the AFI's Center for Advanced Film Studies (from 1970). Daniel's version: collect ideas for about 70 scenes, one per 3×5 card, and you have a feature. Lynch still worked this way in 1990, though by then he dictated the cards to an assistant. The skill's calibration range of 60–90 scenes for a feature or novel is consistent with Daniel's number.
+- **David Edgar**, *How Plays Work*: format and ritual; choreography of knowledge (via Michael Eaton).
+- **Paul Gulino**, *Screenwriting: The Sequence Approach*: dangling causes and payoffs; dramatic irony; revelation and recognition; telegraphing; preparation by contrast.
+- **Damon Kiely**, *How to Read a Play*: active reading; dramatic action. Kiely informed the reading method generally rather than a single dimension.
+- **Nancy Kress**, *Beginnings, Middles and Ends*: promises to the reader; dangling causes.
+- **N. J. Lowe**, *The Classical Plot and the Invention of Western Narrative*: story-world vs. primary narrative; control level; forms of narrative power; transparency as a craft axis; postponement, screening and misdirection as suspense modes.
+- **Michael Rabiger**, *Directing*: dramatic unit analysis; through-lines; character scene analysis; exposition checking.
+- **Matthew Salesses**, *Craft in the Real World*: implied reader; audience expectations; kishotenketsu as an alternative story shape; what is left out.
+- **Aurin Squire**, "[Writing Tip: Go for A and Get B](https://sixperfections.blogspot.com/2026/04/writing-tip-go-for-and-get-b.html)," *Six Perfections*, April 6, 2026: the A→B→C pattern and the alternation rule. A scene goes for A and gets B, which is either a reveal or a reversal. Good scenes stop at B; great ones add a C, in which the character adapts or transforms. A story should alternate reveals and reversals, because a run of reversals feels melodramatic and a run of reveals feels flat. Squire credits the reveal/reversal framework to Ball, so CREWS credits Ball for the distinction and Squire for the A→B→C formulation and the alternation rule.
+- **Aurin Squire**, "[5 Questions for Scene Analysis](https://sixperfections.blogspot.com/2026/04/5-questions-for-scene-analysis.html)," *Six Perfections*, April 5, 2026: the question "Why is this scene compelling?" Squire bases the questions on Vaughan's article (below); the wording CREWS uses is Squire's.
+- **James Thomas**, *Script Analysis for Actors, Directors, and Designers*: given circumstances; beats and units; tempo, rhythm, mood; character complexity; social status.
+- **Tom Vaughan**, "[Five Questions For Every Scene](https://storyandplot.substack.com/p/five-questions-for-every-scene)," *Story and Plot* (Substack), March 27, 2025 ([mirror](https://theweeklyemail.storyandplot.com/five-questions-for-every-scene/)): the original of Squire's questions. Vaughan's fifth asks what makes a scene worth watching in its own right.
 
 ### General references and inspiration
 

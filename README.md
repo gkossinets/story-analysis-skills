@@ -5,7 +5,7 @@ Two Claude skills for close reading of stories, screenplays, plays, novels and f
 - **`crews-analysis`** breaks a work into scenes and analyses each one across twelve dimensions, then steps back to ask what the whole work is built to do. Output: one Markdown file.
 - **`crews-cards`** compresses that file into scene cards (3×5 index cards or letter pages) and renders a print-ready PDF. Output: Markdown plus PDF.
 
-Neither skill needs pandoc, typst or LaTeX. The card PDFs are made by a small bundled Python script whose only dependency is reportlab (already present in Claude's code sandbox on claude.ai; `pip install reportlab` elsewhere). Without reportlab, the script writes a printable HTML file instead.
+The card PDFs are made by a small bundled Python script whose only dependency is reportlab (already present in Claude's code sandbox on claude.ai; `pip install reportlab` elsewhere). Without reportlab, the script writes a printable HTML file instead.
 
 **See it working:** [`examples/gift-of-the-magi/`](examples/gift-of-the-magi/) runs both skills on O. Henry's "The Gift of the Magi" (public domain), with the source text, the scene-list checkpoint, the full analysis, and both card decks as Markdown and PDF.
 
@@ -115,19 +115,7 @@ The output is scannable labelled bullets, not essay prose.
 
 ## Sources and lineage
 
-The framework is a synthesis; no single source covers all twelve dimensions. [Design notes](docs/crews-design-notes.md) map each dimension to its sources and record how testing on real texts shaped the framework.
-
-- **David Ball**, *Backwards and Forwards*: stasis, intrusion, dominoes; the reveal/reversal distinction.
-- **James Thomas**, *Script Analysis for Actors, Directors, and Designers*: given circumstances; beats and units; tempo, rhythm, mood; character complexity; social status.
-- **Damon Kiely**, *How to Read a Play*: active reading; dramatic action.
-- **David Edgar**, *How Plays Work*: format and ritual; choreography of knowledge (via Michael Eaton).
-- **Paul Gulino**, *Screenwriting: The Sequence Approach*: dangling causes and payoffs; dramatic irony; revelation and recognition; telegraphing; preparation by contrast.
-- **Matthew Salesses**, *Craft in the Real World*: implied reader; audience expectations; kishotenketsu as an alternative story shape; what is left out.
-- **Linda Cowgill**, *Writing Short Films*: setup; inciting incident; plant and payoff; escalation.
-- **Nancy Kress**, *Beginnings, Middles and Ends*: promises to the reader; dangling causes.
-- **Michael Rabiger**, *Directing*: dramatic unit analysis; through-lines; character scene analysis; exposition checking.
-- **N. J. Lowe**, *The Classical Plot and the Invention of Western Narrative*: story-world vs. primary narrative; control level; forms of narrative power; transparency as a craft axis; postponement, screening and misdirection as suspense modes.
-- **Aurin Squire**, *Six Perfections* blog: the "go for A, get B" movement and its C step (A→B→C), with reveals and reversals alternating across a work ("[Writing Tip: Go for A and Get B](https://sixperfections.blogspot.com/2026/04/writing-tip-go-for-and-get-b.html)," 2026); the question "why is this scene compelling to watch?" ("[5 Questions for Scene Analysis](https://sixperfections.blogspot.com/2026/04/5-questions-for-scene-analysis.html)," 2026, adapted from Tom Vaughan, "[Five Questions For Every Scene](https://storyandplot.substack.com/p/five-questions-for-every-scene)," *Story and Plot*, 2025).
+The framework is a synthesis; no single source covers all twelve dimensions. It draws mainly on craft books by David Ball, James Thomas, Damon Kiely, David Edgar, Paul Gulino, Matthew Salesses, Linda Cowgill, Nancy Kress, Michael Rabiger and N. J. Lowe, and on Aurin Squire's *Six Perfections* blog for the A→B→C pattern. The [design notes](docs/crews-design-notes.md) map each dimension to its sources, give full [citations and attribution notes](docs/crews-design-notes.md#citations-and-attribution-notes), and record how testing on real texts shaped the framework.
 
 ---
 
