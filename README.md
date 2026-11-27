@@ -1,6 +1,6 @@
 # story-analysis-skills
 
-Two Claude skills for close reading of stories, screenplays, plays, novels and films with the **CREWS** framework, and for turning the analysis into printable scene cards for a wall.
+Two Claude skills for close reading of stories, screenplays, plays, novels and films with the [**CREWS** framework](https://github.com/gkossinets/story-analysis-skills/blob/main/docs/crews-design-notes.md), and for turning the analysis into printable scene cards for a wall.
 
 - **`crews-analysis`** breaks a work into scenes and analyses each one across twelve dimensions, then steps back to ask what the whole work is built to do. Output: one Markdown file.
 - **`crews-cards`** compresses that file into scene cards (3×5 index cards or letter pages) and renders a print-ready PDF. Output: Markdown plus PDF.
