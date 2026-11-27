@@ -34,7 +34,9 @@ Before beginning, confirm with the user:
 
 - **Source:** which file or text is being analysed
 - **Scope:** full work (default); a named act, sequence, or chapter; or a single scene
-- **Output path:** where to save the Markdown file. Default is the same directory as the source, with filename `[source-stem]-crews-analysis.md`. If the source is not a local file (e.g., a pasted text or a film being viewed), ask for a project directory
+- **Output path:** default is the source's directory, with filename `[source-stem]-crews-analysis.md`. If the source isn't a local file (pasted text, an upload, a film being viewed) or its directory isn't writable, write to the session's working or output folder and deliver the file to the user at the end; ask only if the user has a project folder in mind
+
+If the user's request already settles these (e.g. "CREWS analysis of the attached story"), don't ask; state the defaults you're using in one line and move on.
 
 ### Step 2: split into scenes
 
@@ -48,6 +50,8 @@ Before beginning, confirm with the user:
 **Chapters are not scenes.** In prose fiction, chapters are structural units of presentation; a single chapter routinely contains several scenes, and one scene can span multiple chapters. Do not let chapter divisions set the granularity of the breakdown. Treat the source as if it were a screenplay or stage play and ask where the slug lines would fall.
 
 **Granularity rule.** A scene break exists where something dramatically distinct begins, not where a foot crosses a threshold. Functional transitions (a corridor between rooms, a brief elevator ride, a quick walk) usually merge into the adjacent scene unless something dramatically distinct happens during the transition itself — a new character intercepts, an internal recognition occurs, the action of the previous scene is being processed in a way that changes state. When in doubt about whether two adjacent passages are one scene or two, ask whether dramatic state shifts between them; if not, merge.
+
+**Extended description does not break scenes.** A multi-paragraph description of place, a character portrait stretched over several pages, a lyrical or essayistic interlude — these do not by themselves constitute scene breaks. A scene continues across descriptive passages as long as the dramatic situation (location, time, characters present, what is being done or awaited) is stable. When several characters are introduced in succession during the same gathering, each portrait is part of the same scene, not a new one. Especially relevant for contemplative prose, sketch forms, and lyrical or digressive narrative.
 
 **Conventional structures that are still scenes.** Flashbacks, flash-forwards, intercut sequences, and dream sequences are conventional scene structures; a jump in time or place is a scene break, not an orbit. Number scenes sequentially in the order they appear in the text (reading order, not chronological story order), regardless of internal time movement. If the work uses explicit act or sequence breaks, record them between scenes; do not renumber across breaks.
 
@@ -74,6 +78,10 @@ For the dramatis personae, use the form:
 Keep both lists terse; this is a structural review, not analysis. If the work uses act, sequence, or part divisions, indicate them between scene entries.
 
 After the lists, ask the user to either confirm ("proceed") or adjust — split a scene, merge two scenes, change a boundary, change granularity globally; or correct a canonical name, add a missing alias, add or drop a character. On adjustment, present the revised lists and wait again. Only proceed once the user confirms.
+
+**Sanity-check the count.** Before presenting the list, compare the scene count to typical ranges for the form: a full-length novel and a feature-length film both typically land around 60–90 scenes; a short story or short film in the 10–25 range; a novella or one-act play between. Wide departures from these ranges usually indicate either chapter- or macro-beat-level granularity (too coarse) or paragraph-level granularity (too fine). These are calibration anchors, not targets; legitimate departures exist (very sparse minimalist work, very dense modernist work), but a count well outside the expected range is a signal to reconsider before presenting.
+
+**Skipping the checkpoint.** If the user explicitly asks to skip the review ("just run it," "no need to check the scenes"), or no one is present to answer (a scheduled or unattended run), proceed to Step 4 and put the scene list and dramatis personae in a short note at the top of your reply, flagging any boundary calls the user might want to revisit.
 
 Two notes on handling the wait:
 
@@ -359,7 +367,7 @@ W  Writing
   12. Mood and atmosphere
 
 S  Scene function and key changes
-   — Why is this scene compelling to watch?
+   — Why is this scene compelling to read or watch?
    (+ periodically: who hired the CREWS?)
 ```
 
@@ -367,4 +375,4 @@ S  Scene function and key changes
 
 ## Handoff to crews-cards
 
-When the analysis is complete, tell the user the output file path and note that the `crews-cards` skill can convert the file into 3×5 index cards or letter-size cards for wall layout, with optional PDF compilation via pandoc and typst.
+When the analysis is complete, deliver the file (its path, or the file itself in a chat session) with a one-line summary: scene count, story shape, and the single most interesting structural finding. Then offer the next step in one line: the `crews-cards` skill can turn the file into printable 3×5 index cards or letter-size cards, as a PDF.
